@@ -26,7 +26,6 @@ class _MoviesPageState extends State<MoviesPage> {
   _body() {
     return StreamBuilder(
         stream: streamMovies,
-        initialData: false,
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return Text("Não foi possível buscar os usuários");

@@ -1,10 +1,7 @@
-import 'package:firebase/firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:movies_web/pages/push_input.dart';
 
 import '../alerts.dart';
-import '../firebase.dart';
-import '../movie.dart';
 
 class SendPushPage extends StatefulWidget {
   SendPushPage();
